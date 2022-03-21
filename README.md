@@ -25,3 +25,4 @@ Supports:
 - சொல்லாடல் (Tamil Wordle)
 - Слівце (Ukrainian Wordle)
 - Wordle TR (Turkish Wordle)
+- Weredle (Wordle with Werewolf twist)

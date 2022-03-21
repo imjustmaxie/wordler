@@ -27,6 +27,7 @@ urls = {
     15:"https://omtamil.com/soladle/",
     16:"https://slivce.com/",
     17:"https://www.bundle.app/wordle-tr/",
+    18:"https://weredle.netlify.app/",
         }
         
 def wordle(bSpoiler=False):
@@ -58,6 +59,7 @@ def wordle(bSpoiler=False):
 15 - சொல்லாடல் (Tamil Wordle)
 16 - Слівце (Ukrainian Wordle)
 17 - Wordle TR (Turkish Wordle)
+18 - Weredle (Wordle with Werewolf twist)
 
 Enter number here: """)
     if int(inp) in urls.keys():
