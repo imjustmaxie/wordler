@@ -30,6 +30,7 @@ urls = {
     18:"https://weredle.netlify.app/",
     19:"https://bts-wordle.vercel.app/",
     20:"https://www.emotele.xyz/",
+    21:"https://www.nsfwordle.com/",
         }
         
 def wordle(bSpoiler=False):
@@ -64,6 +65,7 @@ def wordle(bSpoiler=False):
 18 - Weredle (Wordle with Werewolf twist)
 19 - BTS Wordle
 20 - Emotele (Twitch Emote Wordle)
+21 - NSFWordle
 
 Enter number here: """)
     if int(inp) in urls.keys():

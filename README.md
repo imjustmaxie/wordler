@@ -28,3 +28,4 @@ Supports:
 - Weredle (Wordle with Werewolf twist)
 - BTS Wordle
 - Emotele (Twitch Emote Wordle)
+- NSFWordle
