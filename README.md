@@ -24,3 +24,4 @@ Supports:
 - Facle (Scottish Gaelic Wordle)
 - சொல்லாடல் (Tamil Wordle)
 - Слівце (Ukrainian Wordle)
+- Wordle TR (Turkish Wordle)
