@@ -6,3 +6,4 @@ Made by yours truly.
 Requires:
 - Python 3.6 and above
 - Selenium
+- Windows
