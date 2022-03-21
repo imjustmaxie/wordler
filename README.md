@@ -26,3 +26,4 @@ Supports:
 - Слівце (Ukrainian Wordle)
 - Wordle TR (Turkish Wordle)
 - Weredle (Wordle with Werewolf twist)
+- BTS Wordle
