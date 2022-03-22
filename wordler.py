@@ -88,7 +88,7 @@ Enter number here: """)
         url = urls[int(inp)]
         driver.get(url)
     else:
-        sys.exit("Invalid input")
+        sys.exit("Invalid input.\nExiting...")
     
     scriptArray=""" for (var kay in localStorage) {
         return localStorage.getItem(localStorage.key(kay))
