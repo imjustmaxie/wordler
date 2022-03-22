@@ -54,7 +54,7 @@ def wordle(bSpoiler=False):
 
     lists = ['solution','board','games']
     
-    inp = input("""WORD SOLVER:
+    inp = input("""WORDLER (WORD GUESS REVEALER):
 
 1 - Wordle
 2 - Katapat (Malay Wordle)
@@ -104,14 +104,15 @@ Enter number here: """)
     for k,v in result.items():
         if k in lists:
             if bSpoiler == False:
-                print("Word of the Day: " + v.replace(v[1:],"☐☐☐☐").upper())
+                print("First Letter of the Day: " + v[:1].upper())
             if bSpoiler == True:
                 print("Word of the Day: " + v.upper())
-                
-                
-ip = input("Spoiler? (Y/N): ")
+
+ip = input("Allow Word of the Day spoiler? (Y/N): ")
 if ip.lower() == 'y':
     ip = True
 elif ip.lower() == 'n':
     ip = False
+else:
+    sys.exit("Invalid input.\nExiting...")
 wordle(ip)
