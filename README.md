@@ -33,6 +33,5 @@ Supports:
 - Уърдли (Bulgarian Wordle)
 - Wordleo (Esperanto Wordle)
 - Hulihua (Hawaiian Wordle)
-- ’en si lì’ur (Na'vi Wordle)
 - Palabro (Brazilian Portuguese Wordle)
 - เวิร์ดเดลไทย (Thai Wordle)

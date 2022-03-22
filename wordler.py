@@ -34,9 +34,8 @@ urls = {
     22:"https://lordcris.github.io/wordle-bg/",
     23:"https://esperanto.cat/wordleo/",
     24:"https://hulihua.net/",
-    25:"https://tirea.learnnavi.org/wordle/",
-    26:"https://palabro-silk.vercel.app/",
-    27:"https://buddhistuniversity.net/wordle-thai/",
+    25:"https://palabro-silk.vercel.app/",
+    26:"https://buddhistuniversity.net/wordle-thai/",
         }
         
 def wordle(bSpoiler=False):
@@ -75,9 +74,8 @@ def wordle(bSpoiler=False):
 22 - Уърдли (Bulgarian Wordle)
 23 - Wordleo (Esperanto Wordle)
 24 - Hulihua (Hawaiian Wordle)
-25 - ’en si lì’ur (Na'vi Wordle)
-26 - Palabro (Brazilian Portuguese Wordle)
-27 - เวิร์ดเดลไทย (Thai Wordle)
+25 - Palabro (Brazilian Portuguese Wordle)
+26 - เวิร์ดเดลไทย (Thai Wordle)
 
 Enter number here: """)
     if int(inp) in urls.keys():
@@ -92,7 +90,10 @@ Enter number here: """)
     
     """
     result = driver.execute_script(scriptArray)
-    result = json.loads(result)
+    try:
+        result = json.loads(result)
+    except TypeError:
+        sys.exit("Error")
     for k,v in result.items():
         if k in lists:
             if bSpoiler == False:
