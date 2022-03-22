@@ -5,7 +5,8 @@ Made by yours truly.
 Requires:
 - Python 3.6 and above
 - Selenium
-- Windows
+- Windows 10 and above
+- Microsoft Edge (Chromium) x64
 
 Supports:
 - Wordle
@@ -29,3 +30,9 @@ Supports:
 - BTS Wordle
 - Emotele (Twitch Emote Wordle)
 - NSFWordle
+- Уърдли (Bulgarian Wordle)
+- Wordleo (Esperanto Wordle)
+- Hulihua (Hawaiian Wordle)
+- ’en si lì’ur (Na'vi Wordle)
+- Palabro (Brazilian Portuguese Wordle)
+- เวิร์ดเดลไทย (Thai Wordle)

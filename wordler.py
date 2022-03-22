@@ -31,6 +31,12 @@ urls = {
     19:"https://bts-wordle.vercel.app/",
     20:"https://www.emotele.xyz/",
     21:"https://www.nsfwordle.com/",
+    22:"https://lordcris.github.io/wordle-bg/",
+    23:"https://esperanto.cat/wordleo/",
+    24:"https://hulihua.net/",
+    25:"https://tirea.learnnavi.org/wordle/",
+    26:"https://palabro-silk.vercel.app/",
+    27:"https://buddhistuniversity.net/wordle-thai/",
         }
         
 def wordle(bSpoiler=False):
@@ -66,10 +72,16 @@ def wordle(bSpoiler=False):
 19 - BTS Wordle
 20 - Emotele (Twitch Emote Wordle)
 21 - NSFWordle
+22 - Уърдли (Bulgarian Wordle)
+23 - Wordleo (Esperanto Wordle)
+24 - Hulihua (Hawaiian Wordle)
+25 - ’en si lì’ur (Na'vi Wordle)
+26 - Palabro (Brazilian Portuguese Wordle)
+27 - เวิร์ดเดลไทย (Thai Wordle)
 
 Enter number here: """)
     if int(inp) in urls.keys():
-        url = (urls[int(inp)])
+        url = urls[int(inp)]
         driver.get(url)
     else:
         sys.exit("Invalid input")
@@ -89,9 +101,9 @@ Enter number here: """)
                 print("Word of the Day: " + v.upper())
                 
                 
-ip = input("Spoiler? (T/F): ")
-if ip.lower() == 't':
+ip = input("Spoiler? (Y/N): ")
+if ip.lower() == 'y':
     ip = True
-elif ip.lower() == 'f':
+elif ip.lower() == 'n':
     ip = False
 wordle(ip)
