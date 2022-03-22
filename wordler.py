@@ -100,6 +100,7 @@ Enter number here: """)
         result = json.loads(result)
     except TypeError:
         sys.exit("Error")
+    os.system('cls')
     for k,v in result.items():
         if k in lists:
             if bSpoiler == False:
