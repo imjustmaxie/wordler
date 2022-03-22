@@ -43,7 +43,6 @@ def wordle(bSpoiler=False):
     options = webdriver.EdgeOptions()
     options.headless = True
     service = os.path.dirname(__file__) + "\edgedriver\msedgedriver.exe"
-    #print(service)
     driver = webdriver.ChromiumEdge(executable_path=service,options=options)
 
     lists = ['solution','board','games']
