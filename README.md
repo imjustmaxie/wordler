@@ -5,7 +5,6 @@ Made by yours truly.
 Requires:
 - Python 3.6 and above
 - Selenium
-- Windows 10 and above
 - Microsoft Edge (Chromium) x64
 
 Supports:
